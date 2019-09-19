@@ -85,7 +85,6 @@ class ViewController: UIViewController {
         }) { (true) in
             print("animation ended")
         }
-
         return true
     }
 

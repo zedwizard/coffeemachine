@@ -57,7 +57,6 @@ class CoffeeMachine {
             water -= currentDrink.water
             milk -= currentDrink.milk
             wasteContainer += currentDrink.coffeeBeans
-            
             return ("Your \(currentDrink.title) is ready", ready: true)
         }
     }
