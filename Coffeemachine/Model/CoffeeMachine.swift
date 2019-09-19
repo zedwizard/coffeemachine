@@ -33,8 +33,7 @@ class CoffeeMachine {
             case .cappuccino: return Drink(title: "cappuccino", water: 10, coffeeBeans: 50, milk: 60)
             case .latte: return Drink(title: "latte", water: 0, coffeeBeans: 30, milk: 70)
             }
-        }
-        
+        }        
     }
     init(coffeeBeans: Int, water: Int, milk: Int, wasteContainer: Int) {
         self.coffeeBeans = coffeeBeans

@@ -31,7 +31,6 @@ class ViewController: UIViewController {
         
     }
 
-
     @IBAction func espressoButtonAction(_ sender: UIButton) {
         clearDisplay()
         let message = coffeeMachine.makeDrink(drink: .espresso)
